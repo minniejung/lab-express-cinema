@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,800;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/cinema.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  padding-top: 30px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 30px;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.mainTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60%;
+  padding: 100px 50px 0 0;
+}
+
+.mainTitle a {
+  margin-top: 30px;
+  border: 1px solid grey;
+  border-radius: 50px;
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+  background: white;
+  text-decoration: none;
+}
+
+.moviePage {
+  text-align: center;
+  padding-bottom: 50px;
+  background: black;
+}
+
+.moviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.card {
+  background-color: antiquewhite;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2em;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+    -2px -2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  padding: 10px;
+  text-align: center;
+}
+
+.oneMovieContainer {
+  padding: 50px;
+  margin: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background: white;
+}
+
+.oneMovie {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.director {
+  font-size: 1rem;
+}
+
+.oneMovie ul {
+  padding-left: 20px;
+}
