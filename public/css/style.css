@@ -10,20 +10,17 @@
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url("../images/cinema.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 h1 {
   font-size: 5rem;
-  color: white;
+  color: black;
   padding-top: 30px;
 }
 
 h2 {
   font-size: 1.5rem;
-  color: white;
+  color: black;
   padding: 30px;
 }
 
@@ -31,11 +28,22 @@ a {
   color: #00b7ff;
 }
 
+.bg {
+  background-image: url("../images/cinema.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .mainTitle {
   display: flex;
   flex-direction: column;
   margin-left: 60%;
   padding: 100px 50px 0 0;
+}
+
+.mainTitle h1 {
+  color: white;
 }
 
 .mainTitle a {
@@ -52,7 +60,7 @@ a {
 .moviePage {
   text-align: center;
   padding-bottom: 50px;
-  background: black;
+  /* background: black; */
 }
 
 .moviesList {
@@ -90,7 +98,7 @@ a {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  background: white;
+  background: antiquewhite;
 }
 
 .oneMovie {
